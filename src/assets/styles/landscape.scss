@@ -1,0 +1,51 @@
+@media screen and (max-width: 1080px) and (orientation: landscape) {
+  .game {
+    padding: 10px 10px 20px 10px;
+  }
+  .game-left {
+    .game-wrapper {
+      .wheel {
+        .wheel {
+          .winner-number {
+            font-size: 50px;
+          }
+        }
+      }
+    }
+  }
+  .game-center {
+    .betting-table {
+      .betting-table__landscape {
+        .numbers {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  .game-right {
+    .history-wrapper {
+      margin-top: 0;
+    }
+  }
+  .control-wrapper {
+    .turbo-button-wrapper {
+      .turbo-button {
+        padding-left: 4px;
+        img {
+          height: 3.4vw;
+        }
+      }
+    }
+    .controls-buttons {
+      .control-button__text {
+        width: auto;
+        font-size: 10px;
+      }
+      .control-button {
+        margin-top: 4vw;
+        padding: 0 0.5vw;
+        width: 8vw;
+      }
+    }
+  }
+}
